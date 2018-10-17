@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KotlinMVVM</string>
+    <string name="get_balance">Get balance</string>
+    <string name="btc">BTC</string>
+</resources>
