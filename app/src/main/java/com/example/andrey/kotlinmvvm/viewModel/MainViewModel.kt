@@ -26,7 +26,7 @@ class MainViewModel : ViewModel() {
     private lateinit var compositeDisposable: Disposable
     private val bitcoinWalletValidator: BitcoinWalletValidator
     var balance: Double
-//    var loading: Boolean
+    var loading: Boolean
 
     val _address = ObservableField<String>()
     var address: String?
@@ -39,7 +39,7 @@ class MainViewModel : ViewModel() {
         address = TEST_ADDRESS
         bitcoinWalletValidator = BitcoinWalletValidator()
         balance = 0.0
- //       loading = false
+        loading = false
     }
 
     fun getWalletData() {
